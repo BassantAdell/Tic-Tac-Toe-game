@@ -1,0 +1,84 @@
+body {
+   
+    background-image: url(istockphoto-1402314380-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul>li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 50px;
+    margin-right: 30px;
+    text-shadow: 5px 5px 5px black, 0 0 25px black, 0 0 5px black;
+
+}
+
+ul {
+    height: 6vh;
+    width: 97%;
+    
+}
+
+li>a {
+
+    color:rgb(18, 185, 500);;
+
+}
+
+li>a:hover {
+
+    color: whitesmoke;
+
+}
+.mintable{
+    
+    border: 2px solid rgb(18, 185, 500);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(18, 185, 500), 0 0 25px rgb(18, 185, 500), 0 0 5px rgb(18, 185, 500)
+}
+
+.table{
+
+max-width: 300px;
+max-height: 300px;
+display:grid;
+margin: 0 auto;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 33% 33% 33%;
+
+}
+
+
+.playerX {
+    color: white;
+    text-shadow: 5px 5px 5px white, 0 0 25px white, 0 0 5px white;
+}
+
+.playerO {
+    color: rgb(18, 185, 500);
+    text-shadow: 5px 5px 5px rgb(18, 185, 500), 0 0 25px rgb(18, 185, 500), 0 0 5px rgb(18, 185, 500);
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+.display {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+
